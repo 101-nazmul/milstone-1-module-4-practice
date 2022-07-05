@@ -1,0 +1,36 @@
+body{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.orange-color{
+    color: orange;
+}
+h1{
+    font-size: 50px;
+}
+.d-flex{
+    display: flex;
+}
+.half-width{
+    width: 50%;
+    margin: 5%;
+}
+img {
+    max-width: 100%;
+    border-radius: 301px 10px;
+}
+.half-width a{
+    margin-top: 5px;
+    display: inline-block;
+    background-color: aqua;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+    border: 3px solid purple;
+}
+.half-width a:hover{
+    background-color: rgb(67, 92, 139);
+    color: aliceblue;
+    border: 3px solid rgb(0, 255, 21);
+    transition: 0.5s;
+}
