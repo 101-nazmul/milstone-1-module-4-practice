@@ -21,16 +21,18 @@ img {
 .half-width a{
     margin-top: 5px;
     display: inline-block;
-    background-color: aqua;
+    background-image: linear-gradient(rgb(248, 121, 142), aqua);
     padding: 10px 20px;
     border-radius: 5px;
     text-decoration: none;
     color: black;
     border: 3px solid purple;
+    font-weight: 600;
 }
 .half-width a:hover{
-    background-color: rgb(67, 92, 139);
+    background-image: linear-gradient(rgb(121, 155, 248), rgb(255, 0, 255));
     color: aliceblue;
     border: 3px solid rgb(0, 255, 21);
     transition: 0.5s;
+    font-weight: 600;
 }
